@@ -34,7 +34,7 @@ var svg = d3.select("body")
             .attr("height", h);
 
 //Load in agriculture data
-d3.csv("data2017.csv", function(data) {
+d3.csv("data.csv", function(data) {
 
     //Load in GeoJSON data
     d3.json("level1argentina.json", function(json) {
