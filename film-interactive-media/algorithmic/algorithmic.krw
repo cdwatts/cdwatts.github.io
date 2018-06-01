@@ -1,0 +1,2572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<korsakow version="6.0.7">
+    <projects>
+        <Project>
+            <id><![CDATA[34]]></id>
+            <version><![CDATA[16]]></version>
+            <name><![CDATA[mental health patterns]]></name>
+            <settingsId><![CDATA[1]]></settingsId>
+            <movieWidth><![CDATA[1024]]></movieWidth>
+            <movieHeight><![CDATA[768]]></movieHeight>
+            <backgroundSoundVolume><![CDATA[0.21]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[true]]></backgroundSoundLooping>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <backgroundColor><![CDATA[#ffffffff]]></backgroundColor>
+            <randomLinkMode><![CDATA[false]]></randomLinkMode>
+            <keepLinksOnEmptySearch><![CDATA[false]]></keepLinksOnEmptySearch>
+            <defaultInterface><![CDATA[11]]></defaultInterface>
+            <uuid><![CDATA[e3dc21c5-9769-4951-94f9-bb83a080edbd]]></uuid>
+        </Project>
+    </projects>
+    <settings>
+        <Settings>
+            <id><![CDATA[1]]></id>
+            <version><![CDATA[21]]></version>
+            <exportWebFiles dynamic="true"><![CDATA[true]]></exportWebFiles>
+            <adjustFilenamesOnSave dynamic="true"><![CDATA[disabled]]></adjustFilenamesOnSave>
+            <putSimilarResourcesAtTop dynamic="true"><![CDATA[true]]></putSimilarResourcesAtTop>
+            <exportImages dynamic="true"><![CDATA[true]]></exportImages>
+            <showBackgroundPreviewInInterface dynamic="true"><![CDATA[true]]></showBackgroundPreviewInInterface>
+            <exportSounds dynamic="true"><![CDATA[true]]></exportSounds>
+            <exportSubtitles dynamic="true"><![CDATA[true]]></exportSubtitles>
+            <exportVideos dynamic="true"><![CDATA[true]]></exportVideos>
+            <exportDirectory dynamic="true"><![CDATA[/Users/fdmuser/Desktop/algorithmic/index.html]]></exportDirectory>
+        </Settings>
+    </settings>
+    <interfaces>
+        <Interface>
+            <id><![CDATA[11]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[3-LINK_LinksOnTop]]></name>
+            <gridWidth><![CDATA[341]]></gridWidth>
+            <gridHeight><![CDATA[192]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[2]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[576]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[3]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00313f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[4]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[192]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00307f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[5]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff0030ff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[6]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Scrubber]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[552]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[5]]></height>
+                    <barWidth dynamic="true"><![CDATA[5]]></barWidth>
+                    <backgroundColor dynamic="true"><![CDATA[#000000ff]]></backgroundColor>
+                    <barHeight dynamic="true"><![CDATA[5]]></barHeight>
+                    <interactive dynamic="true"><![CDATA[true]]></interactive>
+                    <foregroundColor dynamic="true"><![CDATA[#ffffffff]]></foregroundColor>
+                    <loadingColor dynamic="true"><![CDATA[#ddddddff]]></loadingColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[7]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.FullscreenButton]]></widgetType>
+                    <x><![CDATA[973]]></x>
+                    <y><![CDATA[501]]></y>
+                    <width><![CDATA[32]]></width>
+                    <height><![CDATA[32]]></height>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[8]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[9]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[10]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[10]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[96]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[21]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[3-LINK_LinksSeperate]]></name>
+            <gridWidth><![CDATA[341]]></gridWidth>
+            <gridHeight><![CDATA[192]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[12]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[576]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[13]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[576]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00313f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[14]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[341]]></x>
+                    <y><![CDATA[576]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00307f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[15]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[576]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff0030ff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[16]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Scrubber]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[552]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[5]]></height>
+                    <barWidth dynamic="true"><![CDATA[5]]></barWidth>
+                    <backgroundColor dynamic="true"><![CDATA[#000000ff]]></backgroundColor>
+                    <barHeight dynamic="true"><![CDATA[5]]></barHeight>
+                    <interactive dynamic="true"><![CDATA[true]]></interactive>
+                    <foregroundColor dynamic="true"><![CDATA[#ffffffff]]></foregroundColor>
+                    <loadingColor dynamic="true"><![CDATA[#ddddddff]]></loadingColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[17]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.FullscreenButton]]></widgetType>
+                    <x><![CDATA[973]]></x>
+                    <y><![CDATA[501]]></y>
+                    <width><![CDATA[32]]></width>
+                    <height><![CDATA[32]]></height>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[18]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[19]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[20]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[10]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[96]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[33]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[6-LINK_LinksOnTop]]></name>
+            <gridWidth><![CDATA[341]]></gridWidth>
+            <gridHeight><![CDATA[192]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[22]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[576]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[23]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[4]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#3232ff4c]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[24]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00313f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[25]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[341]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00307f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[26]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff0030ff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[27]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Scrubber]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[552]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[5]]></height>
+                    <barWidth dynamic="true"><![CDATA[5]]></barWidth>
+                    <backgroundColor dynamic="true"><![CDATA[#000000ff]]></backgroundColor>
+                    <barHeight dynamic="true"><![CDATA[5]]></barHeight>
+                    <interactive dynamic="true"><![CDATA[true]]></interactive>
+                    <foregroundColor dynamic="true"><![CDATA[#ffffffff]]></foregroundColor>
+                    <loadingColor dynamic="true"><![CDATA[#ddddddff]]></loadingColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[28]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.FullscreenButton]]></widgetType>
+                    <x><![CDATA[973]]></x>
+                    <y><![CDATA[501]]></y>
+                    <width><![CDATA[32]]></width>
+                    <height><![CDATA[32]]></height>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[29]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[30]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[31]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[10]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[96]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[32]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[192]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[3]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#3232ff4c]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[2391]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[mentalhealthinterface]]></name>
+            <gridWidth><![CDATA[341]]></gridWidth>
+            <gridHeight><![CDATA[192]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <backgroundColor><![CDATA[#ffffffff]]></backgroundColor>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[3850]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <x><![CDATA[30]]></x>
+                    <y><![CDATA[212]]></y>
+                    <width><![CDATA[619]]></width>
+                    <height><![CDATA[346]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[3851]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[680]]></x>
+                    <y><![CDATA[290]]></y>
+                    <width><![CDATA[323]]></width>
+                    <height><![CDATA[181]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ffffffff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[3852]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[680]]></x>
+                    <y><![CDATA[534]]></y>
+                    <width><![CDATA[324]]></width>
+                    <height><![CDATA[182]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ffffffff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[3853]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[680]]></x>
+                    <y><![CDATA[47]]></y>
+                    <width><![CDATA[322]]></width>
+                    <height><![CDATA[180]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ffffffff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[3854]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[-1080]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[3855]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[-1080]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[3856]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[32]]></x>
+                    <y><![CDATA[594]]></y>
+                    <width><![CDATA[285]]></width>
+                    <height><![CDATA[139]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier New]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#000000ff]]></fontColor>
+                </Widget>
+            </widgets>
+        </Interface>
+    </interfaces>
+    <videos>
+        <Video>
+            <id><![CDATA[35]]></id>
+            <version><![CDATA[33]]></version>
+            <name><![CDATA[clip8]]></name>
+            <filename><![CDATA[clip8.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[36]]></id>
+            <version><![CDATA[35]]></version>
+            <name><![CDATA[clip7]]></name>
+            <filename><![CDATA[clip7.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[39]]></id>
+            <version><![CDATA[33]]></version>
+            <name><![CDATA[clip4]]></name>
+            <filename><![CDATA[clip4.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[40]]></id>
+            <version><![CDATA[32]]></version>
+            <name><![CDATA[clip3]]></name>
+            <filename><![CDATA[clip3.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[41]]></id>
+            <version><![CDATA[32]]></version>
+            <name><![CDATA[clip2]]></name>
+            <filename><![CDATA[clip2.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[42]]></id>
+            <version><![CDATA[40]]></version>
+            <name><![CDATA[clip1]]></name>
+            <filename><![CDATA[clip1.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[2907]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[clip9]]></name>
+            <filename><![CDATA[/Users/fdmuser/Desktop/algorithmic/clip9.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[2908]]></id>
+            <version><![CDATA[6]]></version>
+            <name><![CDATA[clip10]]></name>
+            <filename><![CDATA[/Users/fdmuser/Desktop/algorithmic/clip10.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[2909]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[clip11]]></name>
+            <filename><![CDATA[/Users/fdmuser/Desktop/algorithmic/clip11.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[2910]]></id>
+            <version><![CDATA[7]]></version>
+            <name><![CDATA[clip12]]></name>
+            <filename><![CDATA[/Users/fdmuser/Desktop/algorithmic/clip12.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[2911]]></id>
+            <version><![CDATA[6]]></version>
+            <name><![CDATA[clip13]]></name>
+            <filename><![CDATA[/Users/fdmuser/Desktop/algorithmic/clip13.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[2912]]></id>
+            <version><![CDATA[6]]></version>
+            <name><![CDATA[clip14]]></name>
+            <filename><![CDATA[/Users/fdmuser/Desktop/algorithmic/clip14.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[2913]]></id>
+            <version><![CDATA[6]]></version>
+            <name><![CDATA[clip15]]></name>
+            <filename><![CDATA[/Users/fdmuser/Desktop/algorithmic/clip15.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[2914]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[clip16]]></name>
+            <filename><![CDATA[/Users/fdmuser/Desktop/algorithmic/clip16.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[2915]]></id>
+            <version><![CDATA[6]]></version>
+            <name><![CDATA[clip5]]></name>
+            <filename><![CDATA[/Users/fdmuser/Desktop/algorithmic/clip5.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[2960]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[clip6]]></name>
+            <filename><![CDATA[/Users/fdmuser/Desktop/algorithmic/clip6.mp4]]></filename>
+        </Video>
+    </videos>
+    <sounds/>
+    <images/>
+    <snus>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[crazy]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[loneliness]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4450]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[5971]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4451]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4452]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[connection]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4453]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[13052]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4454]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[empty]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4455]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[20899]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4456]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[detachment]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[50]]></id>
+            <version><![CDATA[25]]></version>
+            <name><![CDATA[clip1]]></name>
+            <mainMediaId><![CDATA[42]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[42]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["trapped, lonely, and i don't know why"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[comparison]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[worry]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4436]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[2746]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4437]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4438]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[loneliness]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4439]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[5116]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4440]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[expectations]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4441]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[7216]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4442]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[fear]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[63]]></id>
+            <version><![CDATA[16]]></version>
+            <name><![CDATA[clip2]]></name>
+            <mainMediaId><![CDATA[41]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[41]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["i'm constantly incriminating my own self worth"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[detachment]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[fear]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[worry]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4422]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[8406]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4423]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4424]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[paranoia]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4425]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[20460]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4426]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[crazy]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4427]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[32006]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4428]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[expectations]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[76]]></id>
+            <version><![CDATA[16]]></version>
+            <name><![CDATA[clip3]]></name>
+            <mainMediaId><![CDATA[40]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[40]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["paralyzed in that feeling of smallness"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[crazy]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[paranoia]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4408]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[11242]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4409]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4410]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[fear]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4411]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[23339]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4412]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[loneliness]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4413]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[36432]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4414]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[worry]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[91]]></id>
+            <version><![CDATA[17]]></version>
+            <name><![CDATA[clip4]]></name>
+            <mainMediaId><![CDATA[39]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[39]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["it's like being on two different planes at once"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[empty]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[expectations]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[loneliness]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4624]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[11498]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4625]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4626]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[crazy]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4627]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[20122]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4628]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[comparison]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4629]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[27309]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4630]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[worry]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[300]]></id>
+            <version><![CDATA[18]]></version>
+            <name><![CDATA[clip7]]></name>
+            <mainMediaId><![CDATA[36]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[36]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["as humans, we have an inherent right to die"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[connection]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[detachment]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[expectations]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4352]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[9640]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4353]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4354]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[fear]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4355]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[17675]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4356]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[comparison]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4357]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[24778]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4358]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[crazy]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[343]]></id>
+            <version><![CDATA[16]]></version>
+            <name><![CDATA[clip8]]></name>
+            <mainMediaId><![CDATA[35]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[35]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["physical pain is no longer a good enough distraction"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[empty]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[fear]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[worry]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4638]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[7241]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4639]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4640]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[detachment]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4641]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[17062]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4642]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[paranoia]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4643]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[26968]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4644]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[connection]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[2924]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[clip5]]></name>
+            <mainMediaId><![CDATA[2915]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[2915]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["before i knew too much"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[connection]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[crazy]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[detachment]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[paranoia]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4380]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[14484]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4381]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4382]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[loneliness]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4383]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[21168]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4384]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[empty]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4385]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[29755]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4386]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[worry]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[2968]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[clip6]]></name>
+            <mainMediaId><![CDATA[2960]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[2960]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["i wasn't looking at it, and all the while it was there, worsening"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[comparison]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[connection]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[detachment]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4338]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[12734]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4339]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4340]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[paranoia]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4341]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[22369]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4342]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[fear]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4343]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[35547]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4344]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[worry]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[2983]]></id>
+            <version><![CDATA[3]]></version>
+            <name><![CDATA[clip9]]></name>
+            <mainMediaId><![CDATA[2907]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[2907]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["i could no longer trust anyone at all"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[comparison]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[expectations]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[fear]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4324]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[7045]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4325]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4326]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[empty]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4327]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[13329]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4328]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[detachment]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4329]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[19804]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4330]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[connection]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[3180]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[clip10]]></name>
+            <mainMediaId><![CDATA[2908]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[2908]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["wondering if the voices are telling the truth, or if they're liars too"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[empty]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[loneliness]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[paranoia]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4296]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10035]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4297]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4298]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[expectations]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4299]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[18889]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4300]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[comparison]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4301]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[26057]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4302]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[crazy]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[3195]]></id>
+            <version><![CDATA[3]]></version>
+            <name><![CDATA[clip11]]></name>
+            <mainMediaId><![CDATA[2909]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[2909]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["am i really awake?"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[fear]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[worry]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4310]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[14020]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4311]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4312]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[expectations]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4313]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[23745]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4314]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[connection]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4315]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[24649]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4316]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[detachment]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[3210]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[clip12]]></name>
+            <mainMediaId><![CDATA[2910]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[2910]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["the only way forward was to feign normality"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[connection]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[crazy]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[paranoia]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4254]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[13840]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4255]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4256]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[empty]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4257]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[16765]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4258]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[loneliness]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4259]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[25992]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4260]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[comparison]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[3225]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[clip13]]></name>
+            <mainMediaId><![CDATA[2911]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[2911]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["to be so sure of something, only to realize its falsehood"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[detachment]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[expectations]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4240]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10916]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4241]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4242]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[worry]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4243]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[23493]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4244]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[loneliness]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4245]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[35478]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4246]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[fear]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[3240]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[clip14]]></name>
+            <mainMediaId><![CDATA[2912]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[2912]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["you could call them shadows"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[empty]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[fear]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[loneliness]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4212]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10018]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4213]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4214]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[crazy]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4215]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[20373]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4216]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[connection]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4217]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[33993]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4218]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[paranoia]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[3269]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[clip15]]></name>
+            <mainMediaId><![CDATA[2913]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[2913]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["every moment became unbearable"]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[comparison]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[fear]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[worry]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[4198]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10543]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4199]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[4200]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[expectations]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4201]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[18195]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4202]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[paranoia]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+                <Rule>
+                    <id><![CDATA[4203]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[28553]]></triggerTime>
+                    <maxLinks dynamic="true"><![CDATA[1]]></maxLinks>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[4204]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[detachment]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[3284]]></id>
+            <version><![CDATA[3]]></version>
+            <name><![CDATA[clip16]]></name>
+            <mainMediaId><![CDATA[2914]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[2391]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[2914]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA["the mind's ability to control you without your knowledge"]]></insertText>
+        </Snu>
+    </snus>
+    <patterns/>
+    <texts/>
+    <resources>
+        <Folder name="/">
+            <Folder name="Interface Examples">
+                <Resource class="org.korsakow.resource.Interface"
+                    id="11" name="3-LINK_LinksOnTop"/>
+                <Resource class="org.korsakow.resource.Interface"
+                    id="21" name="3-LINK_LinksSeperate"/>
+                <Resource class="org.korsakow.resource.Interface"
+                    id="33" name="6-LINK_LinksOnTop"/>
+            </Folder>
+            <Resource class="org.korsakow.resource.Snu" id="50" name="clip1"/>
+            <Resource class="org.korsakow.resource.Snu" id="63" name="clip2"/>
+            <Resource class="org.korsakow.resource.Snu" id="76" name="clip3"/>
+            <Resource class="org.korsakow.resource.Snu" id="91" name="clip4"/>
+            <Resource class="org.korsakow.resource.Snu" id="2924" name="clip5"/>
+            <Resource class="org.korsakow.resource.Snu" id="2968" name="clip6"/>
+            <Resource class="org.korsakow.resource.Snu" id="300" name="clip7"/>
+            <Resource class="org.korsakow.resource.Snu" id="343" name="clip8"/>
+            <Resource class="org.korsakow.resource.Snu" id="2983" name="clip9"/>
+            <Resource class="org.korsakow.resource.Snu" id="3180" name="clip10"/>
+            <Resource class="org.korsakow.resource.Snu" id="3195" name="clip11"/>
+            <Resource class="org.korsakow.resource.Snu" id="3210" name="clip12"/>
+            <Resource class="org.korsakow.resource.Snu" id="3225" name="clip13"/>
+            <Resource class="org.korsakow.resource.Snu" id="3240" name="clip14"/>
+            <Resource class="org.korsakow.resource.Snu" id="3269" name="clip15"/>
+            <Resource class="org.korsakow.resource.Snu" id="3284" name="clip16"/>
+            <Resource class="org.korsakow.resource.Interface" id="2391" name="mentalhealthinterface"/>
+        </Folder>
+    </resources>
+</korsakow>
