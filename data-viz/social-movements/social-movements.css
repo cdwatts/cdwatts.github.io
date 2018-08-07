@@ -1,0 +1,172 @@
+html {
+    width: auto;
+    margin: 10px;
+}
+
+body {
+    font-family: 'Raleway';
+    font-size: 13px;
+    margin: auto;
+}
+
+h1 {
+    color:black;
+    font-weight: normal;
+}
+
+.title {
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    text-align:center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1100px;
+}
+
+.dataviz {
+    width: 1160px;
+    height: 650px;
+    margin: auto;
+}
+
+.tooltip {
+    text-align: left;
+    width: 250px;										
+    padding: 5px;		
+    background: lightgrey;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+#sidebar {
+    position: relative;
+    width: 280px;
+    height: 100%;
+    float: right;
+    padding-left: 20px;
+}
+
+#container {
+    padding-tp: 30px;
+    padding-bottom: 30px;
+}
+
+.movements {
+    display: block;
+    position: relative;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    width: 250px;
+}
+
+#tooltiptable {
+    width: 100%;
+}
+
+td {
+    vertical-align: top;
+}
+tr {
+    padding-right: 3px;
+}
+.right {
+    text-align: right;
+}
+
+input {
+    vertical-align: middle;
+    float: right;
+}
+
+.info {
+    width: 1160px;
+    margin: auto;
+    font-size: 10px;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.created_by {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.files {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+}
+
+.data_source {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    padding-right: 20px;
+}
+
+.viz_source {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    padding-right: 20px;
+}
+
+.code_source {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+}
+
+.github {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.ticks {
+    font-size: 10px;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+    stroke-linecap: round;
+}
+
+.track {
+    stroke: #000;
+    stroke-opacity: 0.3;
+    stroke-width: 10px;
+}
+
+.track-inset {
+    stroke: #dcdcdc;
+    stroke-width: 8px;
+}
+
+.track-overlay {
+    stroke-width: 50px;
+    stroke: transparent;
+}
+
+.handle {
+    stroke: #000;
+    stroke-opacity: 0.5;
+    stroke-width: 1.25px;
+    cursor: pointer;
+}
+
+
