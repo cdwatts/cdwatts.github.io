@@ -1,7 +1,7 @@
 /*********************
  Main AngularJS 
 *********************/
-var app = angular.module('tutorialWebApp', [
+var app = angular.module('portfolio', [
 'ngRoute'
 ]);
 
@@ -11,17 +11,18 @@ var app = angular.module('tutorialWebApp', [
 app.config(['$routeProvider', function ($routeProvider) {
 $routeProvider
     // home
-    .when("/", {templateUrl: "partials/home.html", <span class="highlight">controller: "PageCtrl"</span>})
+    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
     // pages
-    .when("/about", {templateUrl: "partials/about.html", <span class="highlight">controller: "PageCtrl"</span>})
-    .when("/work", {templateUrl: "partials/work.html", <span class="highlight">controller: "PageCtrl"</span>})
-    .when("/dataviz", {templateUrl: "partials/dataviz.html", <span class="highlight">controller: "PageCtrl"</span>})
-    .when("/media", {templateUrl: "partials/media.html", <span class="highlight">controller: "PageCtrl"</span>})
+    .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
+    .when("/work", {templateUrl: "partials/portfolio.html", controller: "PageCtrl"})
+    .when("/media", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
+    .when("/dataviz", {templateUrl: "partials/dataviz.html", controller: "PageCtrl"})
+    .when("/media", {templateUrl: "partials/media.html", controller: "PageCtrl"})
     // blog
-    .when("/blog", {templateUrl: "partials/blog.html", <span class="highlight">controller: "BlogCtrl"</span>})
-    .when("/blog/post", {templateUrl: "partials/blog_post.html", <span class="highlight">controller: "BlogCtrl"</span>})
+    .when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
+    .when("/blog/post", {templateUrl: "partials/blog_post.html", controller: "BlogCtrl"})
     // else 404
-    .otherwise("/error", {templateUrl: "partials/error.html", <span class="highlight">controller: "PageCtrl"</span>});
+    .otherwise("/error", {templateUrl: "partials/error.html", controller: "PageCtrl"});
 }]);
     
 /*********************
