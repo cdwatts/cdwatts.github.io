@@ -5,13 +5,10 @@ html, body {
     font-size: 13px;
 }
 
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
 h1 {
     font-weight: normal;
+    text-align: center;
+    font-size: 35px;
 }
 
 ul {
@@ -38,6 +35,37 @@ li a:hover {
     color: grey;
 }
 
+.header {
+    padding-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img {
+    display: flex;
+    float: center;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+}
+p {
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+}
 footer {
-    margin: 50px 0;
+    padding-top: 10px;
+    text-align: center;
 }

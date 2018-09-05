@@ -1,11 +1,31 @@
-h1 {
+html {
+    width: auto;
+    margin: 10px;
+}
+h1, h4 {
     font-weight: normal;
+}
+h4 {
+    font-size: 11px;
 }
 body {
   font-family: 'Raleway';
   font-size: 13px;
-  max-width: 900px;
   margin: auto;
+  text-align: center;
+}
+ul, li {
+  text-align: left;
+  font-size: 11px;
+}
+.sources {
+  display: flex;
+  justify-content: center;
+}
+button {
+  font-family: 'Raleway';
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .axis path,
