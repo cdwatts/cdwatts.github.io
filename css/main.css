@@ -9,19 +9,19 @@ body {
     padding-bottom: 20px;
 }
 
-.nav .ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
 }
 
-.nav .li {
+li {
     float: left;
 }
 
-.nav .li .a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -29,8 +29,8 @@ body {
     text-decoration: none;
 }
 
-.nav .li .a:hover {
-    background-color: #111;
+li a:hover {
+    color: grey;
 }
 
 footer {
