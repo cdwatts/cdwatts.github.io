@@ -1,0 +1,42 @@
+/* Claire Watts*/
+body { 
+    background-color: white;
+    font-family: 'Raleway';
+    font-size: 13px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+    font-size: 11px;
+}
+
+.grid line{
+    stroke: lightgrey;
+}
+
+.axis path,
+.axis line {
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Raleway';
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
