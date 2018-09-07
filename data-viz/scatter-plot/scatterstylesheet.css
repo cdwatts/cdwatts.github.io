@@ -1,0 +1,25 @@
+body {
+  font: 13px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+div.tooltip {
+  background: lightsteelblue;
+  color: black;
+  position: absolute;
+  z-index: 10;
+  padding: 3px;	
+  font: 12px;
+  border: 0px;					
+  border-radius: 8px;
+}
