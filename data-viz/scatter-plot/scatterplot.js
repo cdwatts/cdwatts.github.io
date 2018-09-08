@@ -11,6 +11,7 @@ var colors = d3.scaleOrdinal(d3.schemeCategory20);
 //Define SVG
   var svg = d3.select("body")
     .append("svg")
+    .attr("class", "plot")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
@@ -87,7 +88,7 @@ d3.csv("scatterdata.csv",function(error, data){
 
     //X-axis
     var gX = svg.append("g")
-        .attr("class", "x axis")
+        .attr("class", "xaxis")
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis)
         .append("text")
@@ -101,7 +102,7 @@ d3.csv("scatterdata.csv",function(error, data){
 
     //Y-axis
     var gY = svg.append("g")
-        .attr("class", "y axis")
+        .attr("class", "yaxis")
         .call(yAxis)
         .append("text")
         .attr("class", "label")

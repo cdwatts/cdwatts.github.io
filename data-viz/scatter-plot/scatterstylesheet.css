@@ -1,9 +1,21 @@
 body {
-  font: 13px sans-serif;
+  font-size: 13px;
+  font-family: 'Raleway';
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+   font-size: 11px;
+   text-align: center;
 }
 
 .axis path,
 .axis line {
+  font-family: 'Raleway';
   fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
@@ -11,6 +23,18 @@ body {
 
 .dot {
   stroke: #000;
+}
+
+.plot {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.xaxis,
+.yaxis,
+.label {
+font-family: 'Raleway';
 }
 
 div.tooltip {
