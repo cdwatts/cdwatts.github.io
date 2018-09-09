@@ -27,19 +27,22 @@ h3 {
 }
 
 h4 {
-    margin: auto;
-    max-width: 800px;
     display: flex;
-    font-size: 15px; 
-    padding-bottom: 20px;
+    justify-content: center;
+    font-size: 15px;
 }
 
 p {
-    margin: auto;
-    max-width: 800px;
-    display: flex;
     line-height: 2;
-    padding-bottom: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: grey;
 }
 
 ul {
@@ -82,10 +85,16 @@ hr {
     justify-content: center;
 }
 
-.content {
+.content,
+.about {
+    margin: auto;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+.content p {
+    text-align: center;
 }
 
 .center {
@@ -93,10 +102,24 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.photo {
     border-color: lightgray;
+}
+
+.El {
+    display: flex;
+    flex-direction: column;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
 }
 
 footer {
     padding-top: 40px;
     text-align: center;
 }
+

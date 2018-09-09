@@ -117,14 +117,20 @@ d3.csv("scatterdata.csv",function(error, data){
     
     // Adds Pan & Zoom functionality using d3.event.transform
     var zoom = d3.zoom()
+        .scaleExtent([0.7, 4])
         .on("zoom", zoomed);
 
     //Enables zooming when hovering over the circles
-    svg.selectAll("circle").call(zoom);
+    //Disables panning
+    svg.selectAll("circle").call(zoom)
+        .on("mousedown.zoom", null)
+        .on("touchstart.zoom", null)
+        .on("touchmove.zoom", null)
+        .on("touchend.zoom", null);
     
     function zoomed() {
-        svg.select(".x.axis").call(xAxis.scale(d3.event.transform.rescaleX(xScale)));
-        svg.select(".y.axis").call(yAxis.scale(d3.event.transform.rescaleY(yScale)));
+        svg.select(".xaxis").call(xAxis.scale(d3.event.transform.rescaleX(xScale)));
+        svg.select(".yaxis").call(yAxis.scale(d3.event.transform.rescaleY(yScale)));
         
         scatter.attr("transform", d3.event.transform);
         names.attr("transform", d3.event.transform);  
