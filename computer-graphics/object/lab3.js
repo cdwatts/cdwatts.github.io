@@ -582,9 +582,9 @@ function calcVertices(gl, canvas){
     
     //push surface normal colors - red
     for (j=0; j<drawFnormz.length; j+=3){
+        normColor.push(0.0);
+        normColor.push(0.5);
         normColor.push(1.0);
-        normColor.push(0.0);
-        normColor.push(0.0);
     }
 }
 
@@ -789,7 +789,7 @@ function click(ev, gl, canvas) {
         //push coords onto array
         polyLine.push(new coord(x, y, z));
         points.push(x); points.push(y); points.push(z);
-        pointColor.push(0.0); pointColor.push(1.0); pointColor.push(0.0);
+        pointColor.push(0.0); pointColor.push(0.0); pointColor.push(0.0);
 
         //echos clicked points to console
         if (lastButton === 0){
@@ -829,7 +829,7 @@ function move(ev, gl, canvas) {
         if (stop === false){
             //push coords onto array
             points.push(x); points.push(y); points.push(z);
-            pointColor.push(0.0); pointColor.push(1.0); pointColor.push(0.0);
+            pointColor.push(0.0); pointColor.push(0.0); pointColor.push(0.0);
         }
     
         //draw 
@@ -903,7 +903,7 @@ function drawLights(gl, a_position) {
     
     //DIRECTIONAL LIGHT
     var source1 = [0,0,0,500,500,500];
-    var Lcolor1 = [1,0,0,1,0,0]; //red
+    var Lcolor1 = [1,1,0,1,1,0,1,1,0,1,1,0]; //yellow
     if (!light1){Lcolor1 = grayColors(Lcolor1);}
     
     //set positions of the vertices
