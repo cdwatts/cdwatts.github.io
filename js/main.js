@@ -14,6 +14,7 @@ $routeProvider
     .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
     // pages
     .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
+    .when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
     .when("/portfolio", {templateUrl: "partials/portfolio.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
     // blog
