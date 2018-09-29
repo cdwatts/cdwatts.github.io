@@ -94,17 +94,13 @@ hr {
     max-width: 800px;
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .portfolio p {
     text-align: center;
 }
-
-/*
-.services {
-    max-width: 350px;
-}
-*/
 
 .center {
     display: block;
