@@ -29,12 +29,12 @@ $routeProvider
 /*********************
  Location / Removes #
 *********************/
-app.config(['$locationProvider', function ($locationProvider) {
-    
-    //use html5 history api
-    $locationProvider.html5Mode(true);
-    
-}]);
+//app.config(['$locationProvider', function ($locationProvider) {
+//    
+//    //use html5 history api
+//    $locationProvider.html5Mode(true);
+//    
+//}]);
     
 /*********************
  Controls Blog
