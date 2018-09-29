@@ -9,6 +9,7 @@ var app = angular.module('portfolio', [
  Routes
 *********************/
 app.config(['$routeProvider', function ($routeProvider) {
+    
 $routeProvider
     // home
     .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
@@ -21,7 +22,18 @@ $routeProvider
     .when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
     .when("/blog/post", {templateUrl: "partials/blog_post.html", controller: "BlogCtrl"})
     // else 404
-    .otherwise("/error", {templateUrl: "partials/error.html", controller: "PageCtrl"});
+    .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
+    
+}]);
+
+/*********************
+ Location / Removes #
+*********************/
+app.config(['$locationProvider', function ($locationProvider) {
+    
+    //use html5 history api
+    $locationProvider.html5Mode(true);
+    
 }]);
     
 /*********************
