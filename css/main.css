@@ -143,12 +143,15 @@ footer {
     margin: auto
 }
 
+/* small porfolio pictures */
 .photo {
     border-color: lightgray;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
 }
 
 .pageLayout {
