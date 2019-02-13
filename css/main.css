@@ -146,6 +146,7 @@ footer {
 /* small porfolio pictures */
 .photo {
     border-color: lightgray;
+    border-radius: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
