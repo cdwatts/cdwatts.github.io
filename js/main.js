@@ -12,11 +12,9 @@ app.config(['$routeProvider', function ($routeProvider) {
     
 $routeProvider
     // home
-    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
+    .when("/", {templateUrl: "partials/portfolio.html", controller: "PageCtrl"})
     // pages
     .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
-    .when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
-    .when("/portfolio", {templateUrl: "partials/portfolio.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
     // blog
     .when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
