@@ -5,7 +5,7 @@ html, body {
     height: 100%;
     color: black;
     font-family: 'Raleway';
-    font-size: 12px;
+    font-size: 13px;
     margin: auto;
 }
 
@@ -44,8 +44,8 @@ b {
 }
 
 p {
-    line-height: 2;
-    font-size: 14px;
+    line-height: 1.6;
+    font-size: 13px;
     padding-left: 10px;
     padding-right: 10px;
     letter-spacing: 1px;
@@ -75,6 +75,13 @@ a:hover {
     text-align: right;
     text-decoration: underline;
     letter-spacing: 1px;
+}
+
+@media screen and (max-width:960px) {
+    .header {
+        display: none;
+    }
+    
 }
 
 /*************************
