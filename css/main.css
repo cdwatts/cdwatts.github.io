@@ -3,9 +3,9 @@
 ************************/
 html, body {
     height: 100%;
-    color: black;
-    font-family: 'Raleway';
-    font-size: 13px;
+    color: #000;
+    font-family: 'Helvetica';
+    font-size: 14px;
     margin: auto;
 }
 
@@ -44,7 +44,7 @@ b {
 }
 
 p {
-    line-height: 2;
+    line-height: 1.2;
     font-size: 13px;
     padding-left: 10px;
     padding-right: 10px;
@@ -155,7 +155,7 @@ footer h2 {
 }
 
 .portfolio p {
-    text-align: center;
+    text-align: left;
 }
 
 @media screen and (max-width:1100px) {
