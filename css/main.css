@@ -10,7 +10,7 @@ html, body {
 }
 
 h1 {
-    font-weight: 300;
+    font-weight: 400;
     text-align: left;
     font-size: 35px;
     line-height: 1;
@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-    font-weight: 300;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     font-size: 35px; 
@@ -45,6 +45,7 @@ b {
 
 p {
     line-height: 1;
+    font-weight: 400;
     font-size: 13px;
     padding-left: 10px;
     padding-right: 10px;
