@@ -4,8 +4,8 @@
 html, body {
     height: 100%;
     color: #000;
-    font-family: 'Helvetica';
-    font-size: 14px;
+    font-family: 'Raleway';
+    font-size: 13px;
     margin: auto;
 }
 
@@ -44,7 +44,7 @@ b {
 }
 
 p {
-    line-height: 1.2;
+    line-height: 1;
     font-size: 13px;
     padding-left: 10px;
     padding-right: 10px;
@@ -151,7 +151,7 @@ footer h2 {
     flex-direction: column;
     margin-left: 425px;
     margin-right: 150px;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .portfolio p {
