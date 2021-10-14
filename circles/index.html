@@ -4,12 +4,12 @@
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
-var width = 960,
-    height = 450;
+var width = windowWidth,
+    height = windowHeight;
 
 var nodes = d3.range(200).map(function() { return {radius: Math.random() * 12 + 4}; }),
     root = nodes[0],
-    color = d3.scale.category20();
+    color = d3.scale.category10();
 
 root.radius = 0;
 root.fixed = true;
