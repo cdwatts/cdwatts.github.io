@@ -9,7 +9,7 @@ var width = 1000,
 
 var nodes = d3.range(200).map(function() { return {radius: Math.random() * 12 + 4}; }),
     root = nodes[0],
-    color = d3.scale.quantize().domain([0,4]).range(['#000000', '#fdcc8a', '#fc8d59', '#d7301f']);
+    color = d3.scale.quantize().domain([0,4]).range(['#000000', '#3B3B3D', '#D3C8A5', '#A78B85']);
 
 root.radius = 0;
 root.fixed = true;
