@@ -5,11 +5,11 @@
 <script>
 
 var width = 1000,
-    height = 600;
+    height = 800;
 
 var nodes = d3.range(200).map(function() { return {radius: Math.random() * 12 + 4}; }),
     root = nodes[0],
-    color = d3.scale.quantize().domain([0,4]).range(['#000000', '#3B3B3D', '#D3C8A5', '#A78B85']);
+    color = d3.scale.quantize().domain([0,4]).range(['#000000', '#3B3B3D', '#000000', '#A78B85']);
 
 root.radius = 0;
 root.fixed = true;
