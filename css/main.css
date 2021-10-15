@@ -24,7 +24,7 @@ h1 {
     font-size: 13px;
     padding-left: 10px;
     padding-right: 10px;
-    letter-spacing: 20px;
+    letter-spacing: 15px;
 }
 
 
@@ -144,6 +144,7 @@ footer {
     padding-top: 200px;
     height: 80px;
     text-align: left;
+    margin-left: 425px;
 }
 
 footer h2 {
@@ -154,7 +155,7 @@ footer h2 {
   z-index: 1;
   background: transparent;
   overflow-x: hidden;
-  text-align: center;
+  text-align: left;
 }
 /************************
 *   menu page styling   *
