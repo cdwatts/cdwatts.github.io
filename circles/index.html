@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<title>Circles</title>
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
@@ -9,7 +10,7 @@ var width = 1000,
 
 var nodes = d3.range(200).map(function() { return {radius: Math.random() * 12 + 4}; }),
     root = nodes[0],
-    color = d3.scale.quantize().domain([0,4]).range(['#000000', '#3B3B3D', '#000000', '#A78B85']);
+    color = d3.scale.quantize().domain([0,4]).range(['#000000', '#ffffff', '#000000', '#ffffff']);
 
 root.radius = 0;
 root.fixed = true;
